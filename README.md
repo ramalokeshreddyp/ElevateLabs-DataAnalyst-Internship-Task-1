@@ -1,44 +1,38 @@
-**🚀 Elevate Labs – Data Analyst Internship (Task 1)**
+# 🚀 Elevate Labs – Data Analyst Internship (Task 1)
 
-**📌 Task 1: Data Cleaning and Preprocessing**
+## 📌 Task 1: Data Cleaning and Preprocessing
 
-**🎯 Objective**
-
+### 🎯 Objective
 To clean and prepare a raw dataset by handling:
 
-🟢 Missing values
+- 🟢 Missing values  
+- 🟢 Duplicates  
+- 🟢 Inconsistent formats  
 
-🟢 Duplicates
+using tools like **Excel** or **Python (Pandas)**.  
+This task is part of the **Data Analyst Internship assessment** at **Elevate Labs**.
 
-🟢 Inconsistent formats
+---
 
-using tools like Excel or Python (Pandas).
-This task is part of the Data Analyst Internship assessment at Elevate Labs.
+### 🛠 Tools Used
+- 📊 **Microsoft Excel** (primary tool for cleaning)  
+- 📂 **Dataset**: Internal sample dataset (transaction records with dates, times, payment methods, etc.)
 
-**🛠 Tools Used**
+---
 
-📊 Microsoft Excel (primary tool for cleaning)
+### 📝 What I Did
 
-📂 Dataset: Internal sample dataset (transaction records with dates, times, payment methods, etc.)
+**🔍 Missing Values**  
+- Checked for nulls manually + using Excel filters.  
+- Filled/removals based on context (e.g., filled missing payments, removed fully empty rows).  
 
-**📝 What I Did**
+**📑 Duplicates**  
+- Removed duplicate rows using Excel’s **Remove Duplicates** feature.  
 
-**🔍 Missing Values**
-
-Checked for nulls manually + using Excel filters.
-
-Filled/removals based on context (e.g., filled missing payments, removed fully empty rows).
-
-**📑 Duplicates**
-
-Removed duplicate rows using Excel’s Remove Duplicates feature.
-
-**📅 Inconsistent Date Format**
-
-Standardized all dates → DD/MM/YYYY using Excel formulas:
-
-=TEXT(K2, "dd/mm/yyyy")
-
+**📅 Inconsistent Date Format**  
+- Standardized all dates → **DD/MM/YYYY** using Excel formulas:  
+  ```excel
+  =TEXT(K2, "dd/mm/yyyy")
 
 Fixed entries with dashes/spaces using SUBSTITUTE + DATEVALUE.
 
@@ -52,15 +46,19 @@ Ensured numeric columns (e.g., sales, amount) were correctly formatted.
 
 Converted times to a consistent AM/PM format.
 
-**📂 Files in This Repository**
+---
 
-📄 original_dataset.xlsx – Raw dataset before cleaning (optional, if allowed)
+### 📂 Files in This Repository
 
-📄 cleaned_dataset.xlsx – Final cleaned dataset ready for analysis
+-📄 original_dataset.xlsx – Raw dataset before cleaning (optional, if allowed)
 
-📝 README.md – Documentation (this file)
+-📄 cleaned_dataset.xlsx – Final cleaned dataset ready for analysis
 
-**✅ Outcome**
+-📝 README.md – Documentation (this file)
+
+---
+
+### ✅ Outcome
 
 🧹 Created a clean, consistent dataset from a messy input file.
 
