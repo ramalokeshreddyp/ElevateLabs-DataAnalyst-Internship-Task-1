@@ -1,6 +1,8 @@
-🚀 Elevate Labs – Data Analyst Internship (Task 1)
-📌 Task 1: Data Cleaning and Preprocessing
-🎯 Objective
+**🚀 Elevate Labs – Data Analyst Internship (Task 1)**
+
+**📌 Task 1: Data Cleaning and Preprocessing**
+
+**🎯 Objective**
 
 To clean and prepare a raw dataset by handling:
 
@@ -13,25 +15,25 @@ To clean and prepare a raw dataset by handling:
 using tools like Excel or Python (Pandas).
 This task is part of the Data Analyst Internship assessment at Elevate Labs.
 
-🛠 Tools Used
+**🛠 Tools Used**
 
 📊 Microsoft Excel (primary tool for cleaning)
 
 📂 Dataset: Internal sample dataset (transaction records with dates, times, payment methods, etc.)
 
-📝 What I Did
+**📝 What I Did**
 
-🔍 Missing Values
+**🔍 Missing Values**
 
 Checked for nulls manually + using Excel filters.
 
 Filled/removals based on context (e.g., filled missing payments, removed fully empty rows).
 
-📑 Duplicates
+**📑 Duplicates**
 
 Removed duplicate rows using Excel’s Remove Duplicates feature.
 
-📅 Inconsistent Date Format
+**📅 Inconsistent Date Format**
 
 Standardized all dates → DD/MM/YYYY using Excel formulas:
 
@@ -40,17 +42,17 @@ Standardized all dates → DD/MM/YYYY using Excel formulas:
 
 Fixed entries with dashes/spaces using SUBSTITUTE + DATEVALUE.
 
-🔤 Standardized Text Fields
+**🔤 Standardized Text Fields**
 
 Unified inconsistent labels (e.g., "Ewallet", "ewallet", "EWallet" → "Ewallet").
 
-🔢 Data Type Checks
+**🔢 Data Type Checks**
 
 Ensured numeric columns (e.g., sales, amount) were correctly formatted.
 
 Converted times to a consistent AM/PM format.
 
-📂 Files in This Repository
+**📂 Files in This Repository**
 
 📄 original_dataset.xlsx – Raw dataset before cleaning (optional, if allowed)
 
@@ -58,7 +60,7 @@ Converted times to a consistent AM/PM format.
 
 📝 README.md – Documentation (this file)
 
-✅ Outcome
+**✅ Outcome**
 
 🧹 Created a clean, consistent dataset from a messy input file.
 
